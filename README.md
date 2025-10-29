@@ -40,6 +40,13 @@ python3.11 -m venv dbf311
 source ./dbf311/bin/activate
 ```
 
+On Windows:
+
+```bash
+python3.11 -m venv dbf311
+.\dbf311/Scripts/activate.ps1
+```
+
 2. **Install dependencies**:
 
 ```bash
