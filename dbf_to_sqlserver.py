@@ -158,7 +158,7 @@ def setup_logging():
             "[{time:YYYY-MM-DD HH:mm:ss.SSSZ} :: {level} :: "
             "{process.id} :: {process.name}] {message}"
         ),
-        level="DEBUG"
+        level="DEBUG",
     )
 
 
