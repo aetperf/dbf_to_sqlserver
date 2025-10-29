@@ -1,0 +1,14 @@
+# Build dependencies for creating Windows binary with Nuitka
+# Install these on your Windows build machine
+
+# Nuitka compiler
+nuitka>=2.5.8
+
+# Ordered-set is required by Nuitka
+ordered-set>=4.1.0
+
+# zstandard for better compression (optional but recommended)
+zstandard>=0.21.0
+
+# Note: You also need to install runtime dependencies from requirements.txt
+# Install with: pip install -r requirements.txt -r requirements-build.txt
